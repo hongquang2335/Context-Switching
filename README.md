@@ -4,7 +4,7 @@ Dự án mô phỏng các thuật toán thay thế trang trong hệ điều hàn
 
 ---
 
-## 📦 Cài đặt & chạy thủ công
+## 📦 Cài đặt
 
 ### 1. Clone project
 
@@ -13,7 +13,9 @@ git clone https://github.com/hongquang2335/Context-Switching
 cd your-repo-name
 
 ```
-### 2. Cài đặt dependencies
+### Chạy thủ công
+
+#### 1. Cài đặt dependencies
 
 ```bash
 npm install
@@ -21,14 +23,14 @@ npm run dev
 npm install
 
 ```
-### 3. Khởi động ứng dụng
+#### 2. Khởi động ứng dụng
 
 ```bash
 npm run dev
 ```
 Mở trình duyệt truy cập: http://localhost:5173
 
-## 🐳 Chạy ứng dụng bằng Docker (khuyên dùng nếu không cài Node.js)
+### 🐳 Chạy ứng dụng bằng Docker (khuyên dùng nếu không cài Node.js)
 Yêu cầu:
 Docker Desktop (miễn phí): https://www.docker.com/products/docker-desktop
 
@@ -36,13 +38,13 @@ Docker đã chạy: kiểm tra bằng lệnh docker version
 
 Các bước chạy bằng Docker
 
-### 1. Build Docker image:
+#### 1. Build Docker image:
 
 ```bash
 docker build -t vite-react-simulator .
 
 ```
-### 2. Chạy container:
+#### 2. Chạy container:
 
 ```bash
 docker run -d -p 8080:80 vite-react-simulator
