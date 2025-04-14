@@ -19,8 +19,6 @@ cd your-repo-name
 
 ```bash
 npm install
-npm run dev
-npm install
 
 ```
 #### 2. Khởi động ứng dụng
