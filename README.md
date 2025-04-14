@@ -12,9 +12,14 @@ Dự án mô phỏng các thuật toán thay thế trang trong hệ điều hàn
 > Kết quả mô phỏng thuật toán Second Chance: hiển thị chi tiết từng bước và tổng số page faults
 
 ---
+### 📸 Trường hợp xảy ra hiện tượng Belady
 
-![Minh họa Belady](./assets/truong_hop_xay_ra_belady.png)
-> Trường hợp xảy ra hiện tượng Belady:
+| 3 Frames | 4 Frames |
+|----------|----------|
+| <img src="./assets/truong_hop_xay_ra_belady.png" width="400"/> | <img src="./assets/output.png" width="400"/> |
+
+> 🔍 Với 3 frame (trái), số lần page fault là **9**.  
+> Với 4 frame (phải), số lần page fault lại tăng thành **10** – minh họa cho **hiện tượng Belady**.
 
 ---
 
