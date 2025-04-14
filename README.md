@@ -11,13 +11,13 @@ Dự án mô phỏng các thuật toán thay thế trang trong hệ điều hàn
 ```bash
 git clone https://github.com/hongquang2335/Context-Switching
 cd your-repo-name
-npm install
-npm run dev
 
 ```
 ### 2. Cài đặt dependencies
 
 ```bash
+npm install
+npm run dev
 npm install
 
 ```
