@@ -116,7 +116,6 @@ input, select {
   border-color: #c3e6cb;
 }
 
-/* Responsive adjustments */
 @media (max-width: 768px) {
   .App {
     padding: 10px;
@@ -127,10 +126,9 @@ input, select {
   }
 }
 
-/* Thêm vào file App.css */
 .fault-cell {
-  background-color: #ffcccc; /* Màu đỏ nhạt */
-  color: #d32f2f;           /* Màu chữ đỏ đậm */
+  background-color: #ffcccc; 
+  color: #d32f2f;           
   font-weight: bold;
   position: relative;
 }
