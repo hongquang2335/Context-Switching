@@ -10,6 +10,9 @@ const AlgorithmSelector = ({ algorithm, setAlgorithm }) => {
         <option value="fifo">FIFO</option>
         <option value="lru">LRU</option>
         <option value="optimal">Optimal</option>
+        <option value="lfu">LFU</option>
+        <option value="mru">MRU</option>
+        <option value="mfu">MFU</option>
       </select>
     </div>
   );

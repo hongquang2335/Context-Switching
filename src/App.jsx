@@ -34,11 +34,20 @@ function App() {
         case 'optimal':
           simulationResult = simulateOPT(pages, frameCount);
           break;
+        case 'lfu':
+          simulationResult = simulateLFU(pages, frameCount);
+          break;
+        case 'mru':
+          simulationResult = simulateMRU(pages, frameCount);
+          break;
+        case 'mfu':
+          simulationResult = simulateMFU(pages, frameCount);
+          break;
         case 'secondChance':
         default:
           simulationResult = simulateSecondChance(pages, frameCount);
       }
-
+  
       setResults({ 
         ...simulationResult, 
         pages,
